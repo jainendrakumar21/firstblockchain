@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "comingdata",
+						"type": "string"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
+			"kind": "dev",
+			"methods": {
+				"retrieve()": {
+					"details": "Return value ",
+					"returns": {
+						"_0": "value of 'data'"
+					}
+				},
+				"store(string)": {
+					"details": "Store value in variable",
+					"params": {
+						"comingdata": "value to store"
+					}
+				}
+			},
+			"title": "Storage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts\\StorageString.sol": "Storage"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts\\StorageString.sol": {
+			"keccak256": "0xf35d49df0f1d2a60f683dd5eafc93e4cd47354a763dc431e72725b077ed27df9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4db27ea53eea7049b57e1034fb58106e6670fc0d1bac7984301ee7613736a422",
+				"dweb:/ipfs/QmYTqgKiHn6jyjypboo98MrHZkSn4n3VHUp3hmH2rC1nTU"
+			]
+		}
+	},
+	"version": 1
+}
